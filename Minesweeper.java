@@ -4,6 +4,8 @@
  *  Last modified:     1/1/2019
  **************************************************************************** */
 
+import java.util.PriorityQueue;
+
 public class Minesweeper {
     public static void main(String[] args) {
         // input
@@ -82,6 +84,10 @@ public class Minesweeper {
             }
             System.out.println();
         }
+
+        // Min heap
+        PriorityQueue<String> pq = new PriorityQueue<>();
+
 
     }
 }
