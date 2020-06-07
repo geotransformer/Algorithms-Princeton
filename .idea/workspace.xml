@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/MyWeightedQuickUnionUF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Computer Science.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Computer Science.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +39,11 @@
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
     <option name="SCHEME" value="Project" />
   </component>
   <component name="FindBugs-IDEA-Workspace">
@@ -37,12 +66,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Minesweeper">
+  <component name="RunManager" selected="Application.ThreeSum">
+    <configuration name="Birthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Birthday" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscreteDistribution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiscreteDistribution" />
       <module name="Computer Science" />
@@ -59,12 +95,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyQuickUnionUF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQuickUnionUF" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
+      <module name="Computer Science" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.DiscreteDistribution" />
       <item itemvalue="Application.Minesweeper" />
+      <item itemvalue="Application.Birthday" />
+      <item itemvalue="Application.MyQuickUnionUF" />
+      <item itemvalue="Application.ThreeSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Application.MyQuickUnionUF" />
+        <item itemvalue="Application.Birthday" />
         <item itemvalue="Application.Minesweeper" />
         <item itemvalue="Application.DiscreteDistribution" />
       </list>
@@ -80,6 +136,11 @@
       <option name="presentableId" value="Default" />
       <updated>1575840967391</updated>
       <workItem from="1591214513234" duration="3814000" />
+      <workItem from="1591374302802" duration="8194000" />
+      <workItem from="1591418873685" duration="3000" />
+      <workItem from="1591481859284" duration="1000" />
+      <workItem from="1591481862336" duration="2000" />
+      <workItem from="1591540983707" duration="3169000" />
     </task>
     <servers />
   </component>
@@ -95,47 +156,67 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="176" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591215036786">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
     <state x="176" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591215036786" />
-    <state width="699" height="334" key="GridCell.Tab.0.bottom" timestamp="1591215038756">
+    <state width="1604" height="322" key="GridCell.Tab.0.bottom" timestamp="1591418777021">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="96" key="GridCell.Tab.0.bottom/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591384169132" />
+    <state width="1604" height="322" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1591418777021" />
+    <state width="1604" height="322" key="GridCell.Tab.0.center" timestamp="1591418777020">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="96" key="GridCell.Tab.0.center/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591384169131" />
+    <state width="1604" height="322" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1591418777020" />
+    <state width="1604" height="322" key="GridCell.Tab.0.left" timestamp="1591418777020">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="96" key="GridCell.Tab.0.left/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591384169130" />
+    <state width="1604" height="322" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1591418777020" />
+    <state width="1604" height="322" key="GridCell.Tab.0.right" timestamp="1591418777020">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="96" key="GridCell.Tab.0.right/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591384169131" />
+    <state width="1604" height="322" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1591418777020" />
+    <state width="1604" height="322" key="GridCell.Tab.1.bottom" timestamp="1591418777021">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="322" key="GridCell.Tab.1.bottom/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591379628767" />
+    <state width="1604" height="322" key="GridCell.Tab.1.bottom/0.23.1680.941@0.23.1680.941" timestamp="1591418777021" />
+    <state width="1604" height="322" key="GridCell.Tab.1.center" timestamp="1591418777021">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="322" key="GridCell.Tab.1.center/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591379628767" />
+    <state width="1604" height="322" key="GridCell.Tab.1.center/0.23.1680.941@0.23.1680.941" timestamp="1591418777021" />
+    <state width="1604" height="322" key="GridCell.Tab.1.left" timestamp="1591418777021">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="322" key="GridCell.Tab.1.left/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591379628766" />
+    <state width="1604" height="322" key="GridCell.Tab.1.left/0.23.1680.941@0.23.1680.941" timestamp="1591418777021" />
+    <state width="1604" height="322" key="GridCell.Tab.1.right" timestamp="1591418777021">
+      <screen x="0" y="23" width="1680" height="941" />
+    </state>
+    <state width="1604" height="322" key="GridCell.Tab.1.right/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591379628767" />
+    <state width="1604" height="322" key="GridCell.Tab.1.right/0.23.1680.941@0.23.1680.941" timestamp="1591418777021" />
+    <state x="256" y="92" key="SettingsEditor" timestamp="1591541757276">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
-    <state width="699" height="334" key="GridCell.Tab.0.bottom/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591215038756" />
-    <state width="699" height="334" key="GridCell.Tab.0.center" timestamp="1591215038755">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="334" key="GridCell.Tab.0.center/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591215038755" />
-    <state width="699" height="334" key="GridCell.Tab.0.left" timestamp="1591215038754">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="334" key="GridCell.Tab.0.left/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591215038754" />
-    <state width="699" height="334" key="GridCell.Tab.0.right" timestamp="1591215038755">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="334" key="GridCell.Tab.0.right/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591215038755" />
-    <state width="699" height="311" key="GridCell.Tab.1.bottom" timestamp="1591214816942">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="311" key="GridCell.Tab.1.bottom/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591214816942" />
-    <state width="699" height="311" key="GridCell.Tab.1.center" timestamp="1591214816942">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="311" key="GridCell.Tab.1.center/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591214816942" />
-    <state width="699" height="311" key="GridCell.Tab.1.left" timestamp="1591214816941">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="311" key="GridCell.Tab.1.left/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591214816941" />
-    <state width="699" height="311" key="GridCell.Tab.1.right" timestamp="1591214816942">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state width="699" height="311" key="GridCell.Tab.1.right/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591214816942" />
-    <state x="256" y="92" key="SettingsEditor" timestamp="1591214612465">
-      <screen x="0" y="23" width="1920" height="971" />
-    </state>
-    <state x="256" y="92" key="SettingsEditor/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591214612465" />
+    <state x="256" y="92" key="SettingsEditor/-1440.-908.1440.2537/0.23.1920.971@0.23.1920.971" timestamp="1591541757276" />
     <state x="378" y="128" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1591214978585">
       <screen x="0" y="23" width="1920" height="971" />
     </state>
